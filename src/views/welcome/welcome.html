@@ -1,0 +1,27 @@
+<section>
+    <header>
+        <img src="/img/colaSP.png" alt="Logo" />
+        <p> Você está na estação: </p>
+        <h2>Paraiso</h2>
+    </header>
+
+    <main>
+        <div class="dropdown">
+            <button class="dropdown-toggle" (click)="toggle()" [attr.aria-expanded]="showOptions" aria-haspopup="true" aria-controls="destinations-list">
+                Para onde deseja ir?
+            </button>
+
+            <ul *ngIf="showOptions" id="destinations-list" class="destinations" role="menu" (keydown.escape)="toggle()">
+                <li *ngFor="let opt of options" role="none">
+                    <button role="menuitem" (click)="select(opt)">
+                        {{ opt }}
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <button class="dropdown-toggle" (click)="btnHelp()">Solicitar Assistência</button>
+
+    </main>
+
+    <footer></footer>
+</section>

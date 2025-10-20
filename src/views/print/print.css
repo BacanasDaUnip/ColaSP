@@ -1,0 +1,30 @@
+section {
+  background-color: #f5f5f5;
+  height: 2304px;
+  width: 1440px;
+}
+
+p {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  align-self: center;
+  color: #1e1e1e;
+}
+
+button {
+  display: block;
+  margin: 60px auto;
+  padding: 10px 16px;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: #494949;
+  color: #f5f5f5;
+  border: 2px solid #494949;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 550px;
+  height: 150px;
+  text-align: center;
+}

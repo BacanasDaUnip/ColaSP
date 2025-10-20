@@ -1,0 +1,76 @@
+/* ...existing code... */
+:host {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #f5f5f5;
+  height: 2304px;
+  width: 1440px;
+  position: relative;
+}
+
+.se-controls {
+  position: absolute;
+  bottom: 48px; /* movido para a parte inferior */
+  right: 40px;
+  display: flex;
+  flex-direction: row; /* alinhados horizontalmente à direita */
+  gap: 12px;
+  align-items: center;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+.se-controls .se-btn {
+  padding: 10px 16px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #494949;
+  color: #f5f5f5;
+  border: 2px solid #494949;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 350px;
+  height: 125px;
+  margin: 0;
+  text-align: center;
+}
+
+.se-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  background: #f5f5f5;
+}
+
+.se-image {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 16px;
+  font-weight: bold;
+  background-color: #494949;
+  color: #f5f5f5;
+  border: 2px solid #494949;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 550px;
+  height: 150px;
+}
+.se-controls[_ngcontent-ng-c231760786] .se-btn[_ngcontent-ng-c231760786] {
+  font-size: 40px;
+}
