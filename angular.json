@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tcc": {
+    "colasp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tcc:build:production"
+              "buildTarget": "colasp:build:production"
             },
             "development": {
-              "buildTarget": "tcc:build:development"
+              "buildTarget": "colasp:build:development"
             }
           },
           "defaultConfiguration": "development"

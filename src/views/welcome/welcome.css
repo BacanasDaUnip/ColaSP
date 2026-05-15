@@ -1,0 +1,84 @@
+section {
+  background-color: #f5f5f5;
+  height: 2304px;
+  width: 1440px;
+}
+
+p {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 80px;
+  align-self: center;
+  color: #1e1e1e;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 130px;
+  align-self: center;
+  color: #1e1e1e;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-toggle {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 16px;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: #494949;
+  color: #f5f5f5;
+  border: 2px solid #494949;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 550px;
+  height: 150px;
+}
+
+.destinations[_ngcontent-ng-c29753287] button[_ngcontent-ng-c29753287] {
+  font-size: 45px;
+}
+
+.destinations {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px #1e1e1e;
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+  z-index: 1000;
+}
+
+.destinations li {
+  margin: 6px 0;
+}
+
+.destinations button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #1e1e1e;
+  border-radius: 4px;
+}
+
+.destinations button:hover {
+  color: #f5f5f5;
+  background: #1e1e1e;
+}
